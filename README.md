@@ -13,4 +13,5 @@ If there is the need to modify the image locally, follow the process below:
 * Enter the cloned directory
 * Build the image: `docker build -t thorn .`
 * Run the test on the local image: `docker run -v ${PWD}/samples:/tests -t -i thorn ./runtest.sh https://myurl.com/sugar user password /tests/sugarsample.js`
+
 Thorn's version is defined on `./thorn/package.json`. It is currently set to version 0.6.
