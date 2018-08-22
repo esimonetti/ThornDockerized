@@ -1,4 +1,4 @@
-# ThornDockerized
+# ThornDockerized [![Build Status](https://travis-ci.org/esimonetti/ThornDockerized.svg?branch=master)](https://travis-ci.org/esimonetti/ThornDockerized)
 Docker image to run Thorn (https://github.com/sugarcrm/thorn) to test Sugar's REST API
 
 ## Running tests
