@@ -3,7 +3,10 @@ Docker image to run Thorn (https://github.com/sugarcrm/thorn) to test Sugar's RE
 
 ## Option 1 - Basic - Running tests
 Assuming the the test file `sugarsample.js` is located inside the local `samples` directory.<br />
-Execute: `docker run -v ${PWD}/samples:/tests -t esimonetti/thorndockerized ./runtest.sh https://myurl.com/sugar user password /tests/sugarsample.js`<br />
+Execute:
+```
+docker run -v ${PWD}/samples:/tests -t esimonetti/thorndockerized ./runtest.sh https://myurl.com/sugar user password /tests/sugarsample.jsi
+```
 It is also possible to run all tests within a directory, by passing as last parameter a directory path containing the tests, instead of a specific file name.<br /><br />
 Note that for every execution of the Sugar sample test file provided, a new Contact and an Account will be created and immediately soft deleted.<br />
 
